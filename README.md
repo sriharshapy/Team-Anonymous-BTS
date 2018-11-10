@@ -1,8 +1,7 @@
 # TraffiQ-Control
 Intelligent Traffic Light Control Using Reinforcement Learning
 
-TODO : ADD MORE DESCRIPTION
-TODO : ADD LOGIC BEHIND REWARD CALCULATIONS
+TODO : Add more description and explanation for logic behind reward calculations
 
 INSTALLATION and SETUP
 
