@@ -18,6 +18,17 @@ INSTALLATION
 *Install requirements*
 **pip install -r setup/requirements.txt**
 
+*Set Sumo Home Environment Variable in .bashrc*
+**vi ~/.bashrc**
+add the following export in the file and save and exit
+**export SUMO_HOME=/usr/share/sumo** 
+*Source .bashrc*
+**source ~/.bashrc**
+
+*Change file paths to "resultsOfDetectors.xml" in the file bangalore.det.xml*
+**set absolute path based on your repo location accordingly**
+
+
 *Run q-learning model with edge density based rewards*
 **python EdgeDensityReward.py**
 #results in ResultsOfSimulation.txt
