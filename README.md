@@ -4,26 +4,26 @@ Intelligent Traffic Light Control Using Reinforcement Learning
 INSTALLATION
 
 *Install Sumo*
-sudo apt-get install sumo sumo-tools sumo-doc
+**sudo apt-get install sumo sumo-tools sumo-doc**
 
 *Clone Repo*
-git clone https://github.com/strangest-quark/TraffiQ-Control.git
+**git clone https://github.com/strangest-quark/TraffiQ-Control.git**
 
 *Create virtual environment*
-virtualenv traffic
+**virtualenv traffic**
 
 *Activate environment*
-source traffic/bin/activate
+**source traffic/bin/activate**
 
 *Install requirements*
-pip install -r setup/requirements.txt
+**pip install -r setup/requirements.txt**
 
 *Run q-learning model with edge density based rewards*
-python EdgeDensityReward.py
+**python EdgeDensityReward.py**
 #results in ResultsOfSimulation.txt
 
 *Run q-learning model with average speed of vehicles based rewards*
-python MeanSpeedReward.py
+**python MeanSpeedReward.py**
 #results in ResultsOfSimulation1.txt
 
 
