@@ -1,7 +1,10 @@
 # TraffiQ-Control
 Intelligent Traffic Light Control Using Reinforcement Learning
 
-INSTALLATION
+TODO : ADD MORE DESCRIPTION
+TODO : ADD LOGIC BEHIND REWARD CALCULATIONS
+
+INSTALLATION and SETUP
 
 *Install Sumo*
 **sudo apt-get install sumo sumo-tools sumo-doc**
@@ -24,6 +27,8 @@ add the following export in the file and save and exit
 **export SUMO_HOME=/usr/share/sumo** 
 *Source .bashrc*
 **source ~/.bashrc**
+
+TESTING 
 
 *Change file paths to "resultsOfDetectors.xml" in the file bangalore.det.xml*
 **set absolute path based on your repo location accordingly**
