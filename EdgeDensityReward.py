@@ -90,7 +90,7 @@ def main():
             #agent.remember(state1, action, reward, next_state1)
             state = next_state
             state1 = next_state1
-        with open("ResultsOfSimulations1.txt", "a") as f:
+        with open("results/MeanSpeedResults.txt", "a") as f:
             f.write("Simulation {}: {}\n".format(simulation, state1))
         traci.close()
 
