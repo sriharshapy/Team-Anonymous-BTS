@@ -35,11 +35,11 @@ TESTING
 
 *Run q-learning model with edge density based rewards*
 **python EdgeDensityReward.py**
-#results in ResultsOfSimulation.txt
+#results in results/EdgeDensityResults.txt
 
 *Run q-learning model with average speed of vehicles based rewards*
 **python MeanSpeedReward.py**
-#results in ResultsOfSimulation1.txt
+#results in results/MeanSpeedResults.txt
 
 
 
