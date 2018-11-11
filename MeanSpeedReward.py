@@ -84,7 +84,7 @@ def main():
             agent.remember(state, action, reward, next_state)
             state = next_state
             state1 = next_state1
-        with open("ResultsOfSimulations.txt", "a") as f:
+        with open("results/EdgeDensityResults.txt", "a") as f:
             f.write("Simulation {}: {}\n".format(simulation, state1))
         traci.close()
 
