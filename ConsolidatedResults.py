@@ -56,10 +56,11 @@ def main():
 	lengths2=np.asarray(getQlengths('results/MeanSpeedResults.txt'))
 	rewards2=np.asarray(getRewards('results/MeanSpeedResults.txt'))
 
-	plotLengths(lengths1,lengths2)
-	plotRewards(rewards1,rewards2)
+	plotLengths(lengths1[:1000],lengths2[:1000])
+	plotRewards(rewards1[:2000],rewards2[:2000])
 
-
+	print("{0:.2f}".format(((np.mean(rewards2[:500])-np.mean(rewards2[1500:2000]))*100)/np.mean(rewards2[:500])), "% Increase in Mean Speed")
+	print("{0:.2f}".format(((np.mean(lengths2[:2000])-np.mean(lengths1[:2000]))*100)/np.mean(lengths2[:2000])), "% Decrease in Queue Length")
 
 if __name__ == '__main__':
     main()
