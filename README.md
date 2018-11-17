@@ -20,22 +20,37 @@ The simulation was done on *SUMO (Simulation of Urban MObility)* tool with *TraC
 
 ## Installation and Setup
 
- 1. Install Sumo
-  `sudo apt-get install sumo sumo-tools sumo-doc`
-  2. Clone Repo 
-  `git clone https://github.com/strangest-quark/TraffiQ-Control.git`
-  3. Create virtual environment
-  `virtualenv traffic`
-  4. Activate environment
-  `source traffic/bin/activate`
-  5. Install requirements
-  `pip install -r setup/requirements.txt`
-  6. Set Sumo Home Environment Variable
-  `vi ~/.bashrc`
+Install Sumo
+
+    sudo apt-get install sumo sumo-tools sumo-doc
+
+Clone Repo 
+
+    git clone https://github.com/strangest-quark/TraffiQ-Control.git
+
+Create virtual environment
+
+    virtualenv traffic
+
+Activate environment
+
+    source traffic/bin/activate
+
+Install requirements
+
+    pip install -r setup/requirements.txt
+
+  Set Sumo Home Environment Variable
+
+    vi ~/.bashrc
+
   Add path to sumo
-  `SUMO_HOME=/usr/share/sumo`
+
+    SUMO_HOME=/usr/share/sumo
+
  Source ~/.bashrc
-`source ~/.bashrc`
+
+    source ~/.bashrc
 
 ## Testing
 Change file paths to *resultsOfDetectors.xml* in the file *bangalore.det.xml* set absolute path based on your repo location accordingly
