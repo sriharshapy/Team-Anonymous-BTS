@@ -11,7 +11,7 @@ Read more about YOLO (in darknet) and download weight files [here](http://pjredd
 
 Python3, tensorflow 1.4, numpy, opencv 3.
 
-Install python 3.6 
+Install python 3.6 preferably.
 
  ```
     pip install tensorflow==1.4.0
