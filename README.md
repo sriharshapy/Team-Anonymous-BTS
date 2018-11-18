@@ -51,7 +51,8 @@ After completing the above process. Download the `yolo.weights` file from [here]
 
 
 ### Run the program
+After completing the above process give the location of the video as the inputfile.
 ```
     python app.py
 ```
-
+When the program prompts `>>>` enter video in the terminal or cmd. 
