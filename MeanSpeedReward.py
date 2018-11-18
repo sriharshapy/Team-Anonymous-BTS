@@ -76,9 +76,7 @@ def main():
             next_state = get_state(detectorIDs)
             next_state1 = get_state_edge_density()
             #calculate reward
-            reward = calc_reward_edge_density(state1, next_state1)
-            print(state1,next_state1)
-            print(calc_reward_edge_density(state1,next_state1))
+            reward = calc_reward(state, next_state)
             total_reward += reward
             #remember actions and rewards
             agent.remember(state, action, reward, next_state)
