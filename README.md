@@ -1,8 +1,7 @@
 ## Intro
 
 
-Read more about YOLO (in darknet) and download weight files [here](http://pjreddie.com/darknet/yolo/). In case the weight file cannot be found, there are some of the weights [here](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU), which include `yolo-full` and `yolo-tiny` of v1.0, `tiny-yolo-v1.1` of v1.1 and `yolo`, `tiny-yolo-voc` of v2.
-
+Read more about YOLO (in darknet) and download weight files [here](http://pjreddie.com/darknet/yolo/). 
 
 ## Dependencies
 
@@ -27,4 +26,6 @@ You can choose _one_ of the following three ways to get started.
     pip install .
     ```
 
+
+After completing the above process. Download the `yolo.weights` file from [here](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU). Place the weights file in bin folder of the project directory. 
 
