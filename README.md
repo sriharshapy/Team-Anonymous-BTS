@@ -1,19 +1,38 @@
 ## Intro
 
-
 Read more about YOLO (in darknet) and download weight files [here](http://pjreddie.com/darknet/yolo/). 
 
-## Dependencies
+### Clone repo
+ ```
+    git clone https://github.com/muffyharsha/traffic-annotation.git
+ ```
 
-Python3, tensorflow 1.0, numpy, opencv 3.
+### Dependencies
+
+Python3, tensorflow 1.4, numpy, opencv 3.
+
+Install python 3.6 
+
+ ```
+    pip install tensorflow==1.4.0
+ ```
+  ```
+    pip install numpy
+ ```
+ ```
+    pip install opencv-python
+ ```
+ ```
+    pip install opencv-contrib-python
+ ```
 
 ### Getting started
 
-You can choose _one_ of the following three ways to get started.
+You can choose _one_ of the following three ways to get started. Run the following commands while in the project directory.
 
 1. Just build the Cython extensions in place. 
     ```
-    python3 setup.py build_ext --inplace
+    python setup.py build_ext --inplace
     ```
 
 2. Let pip install darkflow globally in dev mode (still globally accessible, but changes to the code immediately take effect)
@@ -28,4 +47,11 @@ You can choose _one_ of the following three ways to get started.
 
 
 After completing the above process. Download the `yolo.weights` file from [here](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU). Place the weights file in bin folder of the project directory. 
+
+
+
+### Run the program
+```
+    python app.py
+```
 
