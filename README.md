@@ -25,6 +25,10 @@ Install python 3.6 preferably.
  ```
     pip install opencv-contrib-python
  ```
+ 
+  ```
+    pip install Cython
+ ```
 
 ### Getting started
 
