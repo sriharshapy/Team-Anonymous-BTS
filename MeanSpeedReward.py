@@ -5,7 +5,7 @@ from scripts.Dqn import Learner
 import time
 
 sys.path.insert(0, "/usr/share/sumo/tools")
-sumoBinary = "/usr/bin/sumo"
+sumoBinary = "/usr/bin/sumo-gui"
 sumoConfig = "data/bangalore.sumo.cfg"
 import traci
 from scripts.auxilliary import makemap
@@ -57,7 +57,7 @@ def main():
     action_space_size = len(actionsMap)
     agent = Learner(state_space_size, action_space_size, 1.0)
     # agent.load("./save/traffic.h5")
-    epochs = 1000
+    epochs = 10
     for simulation in range(epochs):
         traci.start(sumoCmd)
         # Get number of induction loops
@@ -82,9 +82,7 @@ def main():
             agent.remember(state, action, reward, next_state)
             state = next_state
             state1 = next_state1
-        with open("results/EdgeDensityResults.txt", "a") as f:
-            f.write("Simulation {}: {}\n".format(simulation, state1))
-        traci.close()
+            print(state1)
 
 if __name__ == '__main__':
     main()
