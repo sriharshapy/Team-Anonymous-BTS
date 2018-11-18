@@ -55,4 +55,4 @@ After completing the above process give the location of the video as the inputfi
 ```
     python app.py
 ```
-When the program prompts `>>>` enter video in the terminal or cmd. 
+When the program prompts `>>>` enter `video` in the terminal or cmd. 
