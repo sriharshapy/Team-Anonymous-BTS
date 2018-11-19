@@ -1,6 +1,6 @@
-# YOLO deep learning 
+# [Module 1] Extraction of Queue Lengths 
 
-## Intro
+## Introduction
 
 Read more about YOLO (in darknet) and download weight files [here](http://pjreddie.com/darknet/yolo/). 
 
