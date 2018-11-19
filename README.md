@@ -9,7 +9,9 @@ Preliminary Objectives:
 * 40% reduction in average waiting time 
 * Pre-emption system to ease movement of priority vehicles (Ambulances, Fire engines)
 
-The proposed system aims to minimize waiting times for motorized vehicles in traffic junctions. The model takes Queue Lengths and Average Speeds of vehicles in different lanes corresponding to a junction as input and provides the traffic light configuration for the junction as output. It also includes a pre-emption system to ease priority vehicle movement across the city.
+The proposed system aims to minimize waiting times for motorized vehicles in traffic junctions. The system extracts data like Queue Lengths and Average Speeds of vehicles from live video feed. A Deep Q-Learning reinforcement model optimizes traffic light configuration based on extracted data. 
+
+An additional pre-emption system is planned to ease priority vehicle movement. Crisis regions are mapped for all junctions across the city. Location data of priority vehicles is used to activate green lanes for junctions.
 
 ### Module 1 - Extraction of Queue Lengths
 Extraction of vehicular density data from video feed
