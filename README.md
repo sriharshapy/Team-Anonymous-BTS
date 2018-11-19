@@ -11,8 +11,6 @@ Preliminary Objectives:
 
 The proposed system aims to minimize waiting times for motorized vehicles in traffic junctions. The model takes Queue Lengths and Average Speeds of vehicles in different lanes corresponding to a junction as input and provides the traffic light configuration for the junction as output. It also includes a pre-emption system to ease priority vehicle movement across the city.
 
-**NOTE** - ***Descriptions** and **Instructions to Run** are in the Readme within Modules*
-
 ### Module 1 - Extraction of Queue Lengths
 Extraction of vehicular density data from video feed
 * OpenCV
@@ -21,6 +19,8 @@ Extraction of vehicular density data from video feed
 ### Module 2 - Traffic Light Configuration Module
 * Simuation of Deep Q Learning
 * Sumo(Simulation of Urban MObility) tool with TraCI module for traffic interfacing
+
+**NOTE** - ***Descriptions** and **Instructions to Run** are in the Readme within Modules*
 
 ## High Level Architecture
 ![image](https://drive.google.com/uc?export=view&id=1YkCtWHWrGQzm6zQrEYxtOkGOlyptjRcY)
