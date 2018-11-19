@@ -13,16 +13,24 @@ The proposed system aims to minimize waiting times for motorized vehicles in tra
 
 An additional pre-emption system is planned to ease priority vehicle movement. Crisis regions are mapped for all junctions across the city. Location data of priority vehicles is used to activate green lanes for junctions.
 
+---
+
+ **NOTE** - ***Descriptions** and **Instructions to Run** are in the Readme within Modules*
+ 
+---
+
 ### Module 1 - Extraction of Queue Lengths
 Extraction of vehicular density data from video feed
 * OpenCV
 * FCNN Algorithm, YOLO Architecture
 
+![image](https://drive.google.com/uc?export=view&id=1LSF01xzjeSkr8b-2fLnp1GR_WBotHws8)
+
 ### Module 2 - Traffic Light Configuration Module
 * Simuation of Deep Q Learning
 * Sumo(Simulation of Urban MObility) tool with TraCI module for traffic interfacing
 
-**NOTE** - ***Descriptions** and **Instructions to Run** are in the Readme within Modules*
+![image](https://drive.google.com/uc?export=view&id=1hf3T5BCFhCVGvVudVU08hUT3EVjC5GVU)
 
 ## High Level Architecture
 ![image](https://drive.google.com/uc?export=view&id=1YkCtWHWrGQzm6zQrEYxtOkGOlyptjRcY)
