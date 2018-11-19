@@ -1,4 +1,4 @@
-# TraffiQ-Control
+# [Module 2] Traffic Lights Configuration
 
 *Intelligent Traffic Light Control Using Reinforcement Learning*
 
